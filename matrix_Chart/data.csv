@@ -1,0 +1,22 @@
+x,y,value
+New York ,Phosphorus,1
+New York ,Nitrogen ,0.9
+New York ,Sediment,0.9
+Pennsylvania ,Phosphorus,0.84
+Pennsylvania ,Nitrogen ,0.9
+Pennsylvania ,Sediment,0.9
+Maryland ,Phosphorus,1
+Maryland ,Nitrogen ,0.9
+Maryland ,Sediment,1
+Virginia ,Phosphorus,1
+Virginia ,Nitrogen ,1
+Virginia ,Sediment,0.9
+West Virginia ,Phosphorus,1
+West Virginia ,Nitrogen ,1
+West Virginia ,Sediment,1
+Delaware ,Phosphorus,1
+Delaware ,Nitrogen ,0.9
+Delaware ,Sediment,1
+District of Columbia ,Phosphorus,1
+District of Columbia ,Nitrogen ,1
+District of Columbia ,Sediment,1
