@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+div#source {
+	font-family:'Droid Serif';
+	text-align: right;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+a{
+	color: inherit;
+  	text-decoration: inherit;
+}
+
+#chart{
+	margin-top:10px;
+}
+/*this was borrowed from https://bl.ocks.org/jkeohan/b8a3a9510036e40d3a4e Thanks!!*/
+/*HTML Vertical Lengend*/
+
+h3 {
+    margin-top: 15px;
+}
+.country-name {
+    margin: 0 !important;
+}
+
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.legend {
+    margin-right:20px;
+}
+
+.queens { background: #1F77B4;}
+.kings { background: #FF7F0E;}
+.bronx { background: #2CA02C;
+}
+
+/*HTML Horizonal Legend*/
+.country-name {
+    margin: 0 !important;
+}
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.uk { background: #1F77B4;}
+.denmark { background: #FF7F0E;}
+.germany { background: #2CA02C;
+}
+
+#legend2{
+    overflow:hidden;
+}
+.legend2 {
+    float:left;
+    margin-right: 1em;
+}
+
+
+.highcharts-title {
+	font-family: 'Droid Serif', serif;
+	font-weight:600;
+	font-size:24pt;
+	fill:#2c2c2c;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+.highcharts-subtitle {
+	font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-weight: 300;
+    font-size: 8pt;
+}
+
+/*Styles the div that holds the highchart */
+div#container {
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-right:30px;
+	padding-bottom:10px;
+	border-left:1px solid black;
+	border-bottom:14pt solid black;
+	border-top:1px solid black;
+	border-right:1px solid black;
+	box-shadow:5px 5px 10px gainsboro;
+	min-width: 310px;
+	max-width: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* y axis label size */
+.c3-axis-y-label {
+  font-size: 12px; //change the size of the fonts
+}
+
+/* x axis label size */
+.c3-axis-x-label  {
+  font-size: 12px; //change the size of the fonts
+}
+
+/* y axis tick size */
+.c3-axis-y g {
+  font-size: 12px; //change the size of the fonts
+}
+
+/* x axis tick size */
+.c3-axis-x g {
+  font-size: 12px; //change the size of the fonts
+}
+
+.c3-legend-item text{
+  font-size: 14px; //change the size of the fonts
+}
