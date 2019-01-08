@@ -154,7 +154,7 @@ maryland_boundaries<- read_csv("maryland_political_boundaries_zip_codes_11_digit
 Maryland_zips_shape <- left_join(maryland_boundaries, maryland_farms_zips, by =c("zipcode1" = "zip_codes"))
 
 
-#now let's export a map that shows the amount of money based on a value 
+#now let's just see if this looks somewhat reasonable on a quick map that shows the amount of money based on a value...we'll make a fancy one in Carto, but I mean, since we're here why not use the tools ya got?
 
 write_csv(Maryland_zips_shape, "Maryland_zips_shape.csv")
 
