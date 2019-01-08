@@ -36,9 +36,9 @@ h3 {
     margin-right:20px;
 }
 
-.queens { background: #1F77B4;}
-.kings { background: #FF7F0E;}
-.bronx { background: #2CA02C;
+.queens { background: #27AE60;}
+.kings { background: #E62249;}
+.bronx { background: #ebe854;
 }
 
 /*HTML Horizonal Legend*/
@@ -124,3 +124,19 @@ div#container {
 .c3-legend-item text{
   font-size: 14px; //change the size of the fonts
 }
+@media only screen and (max-width: 600px) {
+
+    .heatmap {
+            display: none;
+        }
+    .small-image {
+    				width: 100%;
+        }
+     }
+
+    @media only screen and (min-width: 601px) {
+
+      .small-image {
+              display: none;
+          }
+       }
