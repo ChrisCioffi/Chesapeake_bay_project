@@ -4,7 +4,7 @@ library(tidyverse)
 library(stringi)
 library(sf)
 library(tigris)
-#I'm hoping to figure out how to get all 137 pages of this stupid dable into one dataframe. 
+#I'm hoping to figure out how to get all 137 pages of this inaccessible table into one dataframe. 
 # this is page 1 'https://farm.ewg.org/top_recips.php?fips=24000&progcode=total_cr&yr=2017&regionname=Maryland'
 #page 2 is #https://farm.ewg.org/top_recips.php?fips=24000&progcode=total_cr&page=1&yr=2017 the last page is https://farm.ewg.org/top_recips.php?fips=24000&progcode=total_cr&page=137&yr=2017
 #mostly this is an exploration of how I can pull all pages from a table into one dataframe using the Rvest package. 
@@ -26,7 +26,7 @@ page1 <- tdist %>%
 page1 <- data.frame(page1)
 
 #so the above is a great way to scrape that page. But I want things on multiple pages. That means I'm sort of out of luck. But I do know that the pages have similar numbers. So it shouldn't be too hard, right?
-
+#thanks to this helpful guide, now it (kind of) is!!!!
 #https://github.com/simonmunzert/web-scraping-with-r-extended-edition/blob/master/02-scraping-with-rvest.r
 
 ## dealing with multiple pages ---------- taken simonmunzert tutorial. Thanks, bud. 
